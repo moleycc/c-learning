@@ -4,14 +4,18 @@ void fizz() { printf("Fizz\n"); }
 void buzz() { printf("Buzz\n"); }
 void fizzbuzz() { printf("FizzBuzz\n"); }
 
+int range() {
+  int a;
+  printf("Enter a number: ");
+  scanf("%d", &a);
+  return a;
+}
+
 int main(void) {
 
-  int range;
+  int num = range();
 
-  printf("Enter a number: ");
-  scanf("%d", &range);
-
-  for (int i = 1; i <= range; i++) {
+  for (int i = 1; i <= num; i++) {
     if (i % 15 == 0) {
       fizzbuzz();
     } else if (i % 5 == 0) {
