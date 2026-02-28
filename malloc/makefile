@@ -1,6 +1,6 @@
 CC = clang
 CFLAGS = -Wall -Wextra -Werror -g
-TARGET = malloc
+TARGET = memory_test
 SRCS = main.c functions.c
 
 build:

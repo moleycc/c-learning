@@ -34,7 +34,7 @@ int main(void) {
   populate_array(count, new_count, numbers);
   print_array(new_count, numbers);
 
-  free(numbers);
+  //free(numbers);
 
   return 0;
 }
